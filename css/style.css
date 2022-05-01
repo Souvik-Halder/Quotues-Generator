@@ -22,7 +22,7 @@ body{
 }
 .color_self{
 width: 450px;
-height: 240px;
+height: 260px;
 background-color: var(--pure);
 margin-top: 5rem;
 border-radius: 12px;
