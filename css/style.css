@@ -1,0 +1,70 @@
+:root {
+    --primary : #1a253f;
+    --dark : #151A33;
+    --secondary : #2b55cc;
+    --info : #4d79f6;
+    --ternary : #848db3;
+    --pure : #eff2f9;
+    --fade : #7081b9;
+    --mild : #8997bd;
+    --footer : #212A4A;
+    --black:#060b1b;
+    --twitter: #4ac7ec;
+    --dribbble : #ff5da0;
+    --success : #1eca24;
+    --danger : #f1646c;
+    --dark-blue : #28365f;
+    --dark-gray: #171f33;
+    --yellow: #f3c74d;
+}
+body{
+    background: var(--info);
+}
+.color_self{
+width: 450px;
+height: 240px;
+background-color: var(--pure);
+margin-top: 5rem;
+border-radius: 12px;
+}
+#icon1{
+border: 2px solid var(--info) ;
+border-radius: 50%;
+padding: 6px;
+color: var(--info);
+margin-right: 12px;
+cursor: pointer;
+}
+#icon2{
+    border: 2px solid var(--info) ;
+    border-radius: 50%;
+    padding: 6px;
+    color: var(--info);
+    margin-right: 12px;
+    cursor: pointer;
+}
+#icon3{
+    border: 2px solid var(--info) ;
+    border-radius: 50%;
+    padding: 6px;
+    color: var(--info);
+    margin-right: 12px;
+    cursor: pointer;
+}
+.hi{
+    display: flex;
+    justify-content: end;
+ 
+}
+.quote_heading{
+    text-align: center;
+}
+.circular_btn{
+    border-radius: 30px;
+}
+.bdr{
+    border-top: 1px solid var(--dark);
+}
+.author_text{
+    text-align: end;
+}
